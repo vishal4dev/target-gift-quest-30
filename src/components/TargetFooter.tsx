@@ -5,9 +5,6 @@ const TargetFooter = () => {
         <p className="text-primary-foreground opacity-90 text-sm md:text-base">
           © 2024 Target Survey. All rights reserved.
         </p>
-        <p className="text-primary-foreground opacity-75 text-xs mt-2">
-          This is a customer satisfaction survey. Terms and conditions apply.
-        </p>
       </div>
     </footer>
   );

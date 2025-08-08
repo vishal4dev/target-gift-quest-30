@@ -3,10 +3,11 @@ import { ArrowRight } from "lucide-react";
 import giftCardImage from "@/assets/target-gift-card.jpg";
 
 const HeroSection = () => {
+
   const handleStartSurvey = () => {
-    // Analytics tracking would go here
-    console.log("Survey started");
-  };
+  window.open("https://rewarduplevel.com/aff_c?offer_id=1178&aff_id=3471", "_blank");
+};
+
 
   return (
     <section className="bg-hero-bg pt-16 pb-20">
@@ -28,13 +29,14 @@ const HeroSection = () => {
             </p>
             
             <Button 
-              onClick={handleStartSurvey}
-              size="lg"
-              className="bg-primary hover:bg-primary-hover text-primary-foreground text-xl px-12 py-6 rounded-full font-semibold transition-all duration-300 shadow-elegant hover:shadow-xl hover:scale-105 h-auto"
-            >
-              Start Survey Now 
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+  onClick={handleStartSurvey}
+  size="lg"
+  className="bg-primary hover:bg-primary-hover text-primary-foreground text-lg px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-elegant hover:shadow-xl hover:scale-105 h-auto"
+>
+  Start Survey Now 
+  <ArrowRight className="ml-2 w-5 h-5" />
+</Button>
+
           </div>
         </div>
       </div>
