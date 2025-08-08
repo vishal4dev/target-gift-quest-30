@@ -17,10 +17,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 16.5%;
 
-    /* Target Brand Colors */
-    --primary: 0 100% 40%;  /* Target Red #CC0000 */
+    /* Target Brand Colors - More vibrant and pronounced */
+    --primary: 0 100% 50%;  /* Brighter, more vibrant red */
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 0 100% 33.3%;  /* Darker red for hover */
+    --primary-hover: 0 100% 45%;  /* Brighter hover state */
 
     --secondary: 210 20% 96.9%;  /* Light blue-gray */
     --secondary-foreground: 0 0% 16.5%;

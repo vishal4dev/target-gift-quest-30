@@ -30,7 +30,7 @@ const HeroSection = () => {
             <Button 
               onClick={handleStartSurvey}
               size="lg"
-              className="bg-primary hover:bg-primary-hover text-primary-foreground text-lg px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:shadow-xl hover:scale-105"
+              className="bg-primary hover:bg-primary-hover text-primary-foreground text-xl px-12 py-6 rounded-full font-semibold transition-all duration-300 shadow-elegant hover:shadow-xl hover:scale-105 h-auto"
             >
               Start Survey Now 
               <ArrowRight className="ml-2 w-5 h-5" />
